@@ -1,0 +1,17 @@
+*{
+    background-color: rgba(212, 240, 253, 0.459)
+}
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Inconsolata:wght@300&display=swap');
+h1{
+    background-color: rgb(90, 120, 124);
+     font-family: 'Gluten', cursive;
+    font-family: 'Inconsolata', monospace;
+
+}
+.titulo_amarillo{
+    background-color: rgb(129, 172, 211);
+}
+
+#titulo{
+    background-color: indigo;
+}
