@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    font-family: IBMPlexSans,sans-serif;
+     /* background-image: url(/img/BIT.jpeg);
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 680px;
+    box-shadow: 1px 7px 20px 2px rgb(0 0 0 / 40%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.wrapper .left_image img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 100%;
+    width: 130px;
+}
+.wrapper .login{
+    height: 622px;
+    width:  570px;
+    padding: 24px;
+}
+.wrapper .login .title .inicioSesion{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.wrapper .login .title .rules{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+.wrapper .login .title .rules a{
+    color: #0079d3;
+}
+.wrapper .login .logwith{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px
+}
+.wrapper .login .logwith .google{
+    width: 253px;
+    height: 50px;
+    margin: 8px 0px 0px;
+    border: 1.3px solid #0079d3;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wrapper .login .logwith .google a{
+    color: #0079d3;
+    padding: 16px 0px 16px 40px;
+}
+.wrapper .login .logwith .google img{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+}
+.wrapper .login .logwith .apple{
+    width: 253px;
+    height: 50px;
+    margin: 8px 0px ;
+    border: 1.3px solid #0079d3;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wrapper .login .logwith .apple a{
+    color: #0079d3;
+    padding: 16px 0px 16px 40px;
+}
+.wrapper .login .logwith .apple img{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+}
+.wrapper .login .or{
+    display: flex;
+	justify-content: left;
+    align-content: center;
+	align-items: center;
+	height: 15px;
+	margin: 28px 0;
+}
+.wrapper .login .or .line{
+    width: 123px;
+	height: 2px;
+	background: #efefef
+}
+.wrapper .login .or p{
+    color: #999;
+	font-size: 12px;
+}
+.wrapper .login .form {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .login .form input{
+    width: 253px;
+    height: 13px;
+    padding: 16px 0px 16px 10px;
+    margin-top: 8px;
+    align-content: center;
+    background-color: #fcfcfb;
+    font-size: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+.wrapper .login .form .btn{
+    height: 40px;
+    width: 253px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    background: #0079d3;
+    border-radius: 999px;
+}
+.wrapper .login .form a{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 12px 16px;
+    
+}
+.wrapper .login .forgot{
+    height: 48px;
+    width: 253px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 8px 0px 20px;
+}
+.wrapper .login .forgot a{
+    color: #0079d3;
+}
+.wrapper .login .new{
+    height: 48px;
+    width: 253px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 8px 0px 20px;
+}
+.wrapper .login .new a{
+    color: #0079d3;
+    font-weight: 600;
+}
