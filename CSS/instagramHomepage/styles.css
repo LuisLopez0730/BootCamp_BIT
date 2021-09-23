@@ -14,12 +14,15 @@ body{
     font-size: 14px;
 }
 .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
 }
 .wrapper .header {
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction:row;
-    max-width: 350px;
     width: 100%;
     height: auto;
     margin: 50px auto;
@@ -29,6 +32,40 @@ body{
     height: 618px;
     margin-left: -35px;
     margin-right: -15px;
+    position: relative;
+}
+.wrapper .header .cellBckGrnd{
+    margin-left: 110px;
+    top: 145px;
+    background: #fafafa;
+    width: 249px; 
+    height: 437px;
+    border-radius: 4px;
+    position: absolute;
+    overflow: hidden;
+}
+.wrapper .header .left_header .swapImg{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.wrapper .header .left_header .swapImg img{
+    width: 249px;
+    height: auto;
+    float: left;
+}
+@keyframes slider {
+    0% {left: 20;}
+    20%{left: 20%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%}
+    70%{left: -200%;}
+    75%{left: -300%}
+    95%{left: -300%;}
+    100%{left: -400%;}
 }
 .wrapper .header .top, .wrapper .header .singup{
     background: #fff;
@@ -41,9 +78,10 @@ body{
     margin: 0 auto 35px;
     width: 175px;
     transition: 0.5s;
+    position: relative;
 }
 .wrapper .header .top .logo img:hover{
-   background-color: aqua;
+    background-color: aqua;
 }
 .wrapper .header .top .form .input_field{
     margin-bottom: 5px;
@@ -68,13 +106,13 @@ body{
     padding: 5px;
     align-content: center;
 }
-.wrapper .header .top .form .btn input{ /*revisar*/
+.wrapper .header .top .form .btn a{ 
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
     background: #3897f0;
     border: 0px;
-    align-content: center;
-    text-align: center;
-    color: #fff;
-    display: block;
 }
 .wrapper .header .top .or{
     display: flex;
@@ -135,5 +173,42 @@ body{
     width: 135px;
     height: 40px;
     margin: 0 5px;
+}
+/* .wrapper .footer {
+    
+} */
+.wrapper .footer .extLinks{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.wrapper .footer .extLinks p{
+    padding: 5px 12px;
+}
+.wrapper .footer .copyRights{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.wrapper .footer .copyRights p{
+    padding: 19px 12px;
+}
+.wrapper .footer .copyRights .lenguage{
+    background: #fafafa;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    color: rgba(var(--f52,142,142,142),1);
+    padding: 19px 12px;
 }
 
